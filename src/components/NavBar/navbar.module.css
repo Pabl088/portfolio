@@ -32,14 +32,15 @@ button {
     font-size: var(--fs-8);
     padding: 20px 7px;
     transition: color var(--transition-1);
-
-    &:hover,
-    &:focus {
-        color: var(--light-gray-70);
-    }
 }
 
-.active_link {
+.navbar_btn_link:hover,
+.navbar_btn_link:focus {
+    color: var(--light-gray-70);
+}
+
+
+.navbar_btn_link.active_link {
     color: var(--orange-yellow-crayola);
 }
 
@@ -75,6 +76,20 @@ div.skills::before {
     .navbar {
         border-radius: 20px 20px 0 0;
     }
+
+    .navbar_list {
+        gap: 20px;
+    }
+
+    .navbar_btn_link {
+        --fs-8: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar_btn_link {
+        --fs-8: 15px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -88,5 +103,14 @@ div.skills::before {
         border-radius: 0 20px;
         padding: 0 20px;
         box-shadow: none;
+    }
+
+    .navbar_list {
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .navbar_btn_link {
+        font-weight: var(--fw-500);
     }
 }

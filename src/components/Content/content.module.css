@@ -1,0 +1,10 @@
+.content_container {
+    position: relative;
+    margin: auto;
+}
+
+@media (min-width: 1024px) {
+    .content_container {
+        width: max-content;
+    }
+}

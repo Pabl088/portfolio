@@ -60,7 +60,6 @@
 }
 
 html {
-    visibility: inherit;
     font-family: var(--ff-poppins);
 }
 
@@ -74,4 +73,12 @@ html {
 
 body {
     background: var(--smoky-black);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }

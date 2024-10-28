@@ -31,7 +31,7 @@ const Sidebar: React.FC = () => {
       </div>
       <div className={style.sidebar_info_contact}>
         <div className={style.separator}></div>
-        <ul className={style.contact_list}>
+        <ul className={style.contacts_list}>
           <li className={style.contact_item}>
             <div className={style.icon_box}>
               <MdOutlineEmail />

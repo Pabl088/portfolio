@@ -1,6 +1,7 @@
 .sidebar {
-    margin-bottom: 15px;
     max-height: 160px;
+    min-width: fit-content;
+    margin-bottom: 15px;
     overflow: hidden;
     transition: var(--transition-2);
     background: var(--eerie-black-2);
@@ -31,8 +32,7 @@
 
 .info_content .name {
     color: var(--white-2);
-    font-size: var(--fs-3);
-    font-weight: var(--fw-500);
+    font-size: var(--fs-1);
     letter-spacing: -0.25px;
     margin-bottom: 10px;
 }
@@ -151,7 +151,7 @@ address {
 
 .social_list {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 15px;
     padding-bottom: 4px;
@@ -160,7 +160,7 @@ address {
 
 .social_item .social_link {
     color: var(--light-gray-70);
-    font-size: 18px;
+    font-size: 26px;
 }
 
 @media (min-width: 580px) {
@@ -246,7 +246,7 @@ address {
 }
 
 
-@media (min-width: 1250px) {
+@media (min-width: 1325px) {
     .sidebar {
         width: auto;
         position: sticky;
@@ -256,6 +256,10 @@ address {
         margin-bottom: 0;
         padding-top: 60px;
         z-index: 1;
+    }
+
+    .sidebar.active {
+        max-height: max-content;
     }
 
     .sidebar_info {

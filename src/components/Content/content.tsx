@@ -19,7 +19,7 @@ const Content: React.FC = () => {
   };
 
   return (
-    <section className={style.content}>
+    <section className={style.content_container}>
       <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {renderPage()}
     </section>

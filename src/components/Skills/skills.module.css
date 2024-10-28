@@ -1,0 +1,48 @@
+.title {
+    position: relative;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+    color: var(--white-2);
+    text-transform: capitalize;
+    font-size: var(--fs-1);
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background: var(--text-gradient-yellow);
+    border-radius: 3px;
+}
+
+
+.subtitle {
+    color: white;
+    margin-bottom: 8px;
+}
+
+.skill {
+    background: var(--bg-gradient-onyx);
+    border-radius: 5px;
+    box-shadow: var(--shadow-1);
+    display: inline-block;
+    padding: 4px 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    color: white;
+    --gradient: linear-gradient(135deg, #8BC6EC 0%, #FFCC70 100%);
+}
+
+.skill::before {
+    content: "";
+    display: inline-block;
+    margin-right: 8px;
+    height: 6px;
+    width: 6px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: var(--gradient);
+}
