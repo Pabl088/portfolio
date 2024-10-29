@@ -35,7 +35,7 @@ jobs:
         with:
           repository: Pabl088/Pabl088.github.io
           ref: gh-pages
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Verify Remote URL
         run: git remote -v
