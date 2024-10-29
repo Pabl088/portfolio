@@ -1,6 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import style from "./downloadButton.module.css";
-import CV from "../../assets/Resume/CV.pdf";
+import CV from "@/assets/Resume/CV.pdf";
 
 const downloadCV = () => {
   const a = document.createElement("a");

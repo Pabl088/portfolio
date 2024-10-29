@@ -1,8 +1,8 @@
 import style from "./projects.module.css";
-import socialsound from "../../assets/Projects/socialSound.png";
-import wikipoke from "../../assets/Projects/wikiPoke.jpg";
-import datasystem from "../../assets/Projects/datasystem.gif";
-import fruitapp from "../../assets/Projects/fruitapp.gif";
+import socialsound from "@/assets/Projects/social_sound.png";
+import wikipoke from "@/assets/Projects/wiki_poke.jpg";
+import datasystem from "@/assets/Projects/datasystem.gif";
+import fruitapp from "@/assets/Projects/fruitapp.gif";
 
 const Projects: React.FC = () => {
   return (
