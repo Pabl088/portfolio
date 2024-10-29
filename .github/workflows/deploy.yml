@@ -24,17 +24,22 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Copy dist files to temp
+        run: |
+          mkdir ../temp_dist
+          cp -r dist/* ../temp_dist/
+
       - name: Checkout deploy repository
         uses: actions/checkout@v2
         with:
-          repository: Pabl088/Pabl088.github.io
+          repository: Pabl088/Pabl088.github.io # Repositorio de destino
           ref: gh-pages
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Copy build files
+      - name: Copy files from temp_dist
         run: |
           rm -rf ./*
-          cp -r ../dist/* .
+          cp -r ../temp_dist/* .
 
       - name: Commit and Push to GitHub Pages
         run: |
