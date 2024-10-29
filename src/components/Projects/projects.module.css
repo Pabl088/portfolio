@@ -69,6 +69,25 @@ h2 {
     transition: var(--transition-1);
 }
 
+.project_info_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_links_container {
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+.project_links_container span {
+    border-radius: 8px;
+    color: var(--orange-yellow-crayola);
+    background: var(--border-gradient-onyx);
+    padding: 10px;
+    box-shadow: var(--shadow-2);
+    cursor: pointer;
+}
 
 .project_title {
     color: var(--white-2);
@@ -113,9 +132,3 @@ h2 {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-/* @media (min-width: 1024px) {
-    .projects_list {
-        grid-template-columns: repeat(3, 1fr);
-    }
-} */
