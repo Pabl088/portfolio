@@ -6,6 +6,7 @@ import { IoIosPhonePortrait } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import avatar from "../../assets/avatar.png";
 
 const Sidebar: React.FC = () => {
   const [isActive, setIsActive] = useState(false);
@@ -18,7 +19,7 @@ const Sidebar: React.FC = () => {
     <aside className={`${style.sidebar} ${isActive ? style.active : ""}`}>
       <div className={style.sidebar_info}>
         <figure className={style.avatar_box}>
-          <img style={{ height: "120px" }} className={style.avatar_box} src="/src/assets/my_avatar.png" alt="Pablo Albin" />
+          <img style={{ height: "120px" }} className={style.avatar_box} src={avatar} alt="Pablo Albin" />
         </figure>
         <div className={style.info_content}>
           <h1 className={style.name}>Pablo Albin</h1>
