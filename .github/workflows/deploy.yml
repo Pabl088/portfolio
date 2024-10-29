@@ -33,9 +33,12 @@ jobs:
       - name: Checkout deploy repository
         uses: actions/checkout@v2
         with:
-          repository: Pabl088/Pabl088.github.io # Repositorio de destino
+          repository: Pabl088/Pabl088.github.io
           ref: gh-pages
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Verify Remote URL
+        run: git remote -v
 
       - name: Copy files from temp_dist
         run: |
