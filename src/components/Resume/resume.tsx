@@ -18,21 +18,33 @@ const Resume: React.FC = () => {
         <ol className={style.timeline_list}>
           <li className={style.timeline_item}>
             <h4 className={style.timeline_item_title}>Full Stack Developer - TechnoApes</h4>
-            <span>November 2023 - Present</span>
+            <span>October 2023 - Present</span>
             <ul className={style.timeline_text_list}>
-              <li>Developed web administration tools for clients, enhancing user experience and efficiency.</li>
-              <li>Collaborated closely with technical support to address client needs and provide solutions.</li>
-              <li>Utilized TypeScript, Angular, Spring Boot, and MySQL in project implementations.</li>
-              <li>Managed versioning and deployments on AWS.</li>
+              <li>Developed new websites and APIs for efficient client and staff management, enhancing user tracking and administration.</li>
+              <li>Implemented APIs for process automation, optimizing workflows and reducing operation times.</li>
+              <li>Collaborated on improving existing modules, ensuring applications are scalable and adaptable to new requirements.</li>
+              <li>Utilized TypeScript, Node.js, Angular, Spring Boot, and MySQL to ensure efficient and secure performance in each development.</li>
             </ul>
           </li>
           <li className={style.timeline_item}>
             <h4 className={style.timeline_item_title}>Full Stack Developer - SpicyTool</h4>
-            <span>August 2023 - November 2023</span>
+            <span>January 2023 - October 2023</span>
             <ul className={style.timeline_text_list}>
-              <li>Integrated Google Ads for customer analytics, visualizing data insights through charts.</li>
-              <li>Resolved site structure issues in WordPress to enhance site stability and SEO.</li>
-              <li>Utilized PHP, Laravel, AWS, and WordPress for various project needs.</li>
+              <li>Integrated the Google Ads API into the platform to enable real-time management and monitoring of digital marketing campaigns.</li>
+              <li>Collaborated on enhancing various web modules, optimizing existing functionalities and improving the user experience.</li>
+              <li>Developed new features on the platform, expanding capabilities for data management and analysis.</li>
+              <li>Utilized PHP, Laravel, AWS, and WordPress to meet various project needs, ensuring efficient and scalable performance.</li>
+            </ul>
+          </li>
+          <li className={style.timeline_item}>
+            <h4 className={style.timeline_item_title}>Full Stack Developer - Gosociall</h4>
+            <span>May 2022 - December 2022</span>
+            <ul className={style.timeline_text_list}>
+              <li>Collaborated in the design and optimization of the PostgreSQL database to efficiently manage connections between donors and social causes.</li>
+              <li>Developed the backend structure and multiple endpoints in Node.js, ensuring secure and fast data management between users and social causes.</li>
+              <li>Implemented the frontend in React, focusing on an intuitive and accessible interface to enhance user navigation and engagement.</li>
+              <li>Participated in integrating external services for real-time notifications, improving communication between users and the platform.</li>
+              <li>Utilized TypeScript across the stack to ensure a robust codebase and minimize development errors.</li>
             </ul>
           </li>
           <li className={style.timeline_item}>
