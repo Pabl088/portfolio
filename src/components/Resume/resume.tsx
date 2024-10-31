@@ -37,7 +37,7 @@ const Resume: React.FC = () => {
             </ul>
           </li>
           <li className={style.timeline_item}>
-            <h4 className={style.timeline_item_title}>Full Stack Developer - Gosociall</h4>
+            <h4 className={style.timeline_item_title}>Full Stack Developer - Gosocial</h4>
             <span>May 2022 - December 2022</span>
             <ul className={style.timeline_text_list}>
               <li>Collaborated in the design and optimization of the PostgreSQL database to efficiently manage connections between donors and social causes.</li>
