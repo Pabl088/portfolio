@@ -17,8 +17,19 @@ const Resume: React.FC = () => {
         </div>
         <ol className={style.timeline_list}>
           <li className={style.timeline_item}>
+            <h4 className={style.timeline_item_title}>Full Stack Developer - Techforb</h4>
+            <span>March 2025 - Present</span>
+            <ul className={style.timeline_text_list}>
+              <li>Developed and maintained microservices APIs using Spring Boot (Java) and NestJS (TypeScript) to support core business workflows.</li>
+              <li>Built responsive front-end interfaces with Angular and React, ensuring seamless user experiences across applications.</li>
+              <li>Integrated third-party services and internal modules into various APIs, designing robust business logic and data flows.</li>
+              <li>Created automated document-generation solutions, streamlining reporting processes and reducing manual effort.</li>
+              <li>Managed CI/CD pipelines and deployments on AWS with Jenkins, ensuring reliable, scalable delivery and infrastructure health.</li>
+            </ul>
+          </li>
+          <li className={style.timeline_item}>
             <h4 className={style.timeline_item_title}>Full Stack Developer - TechnoApes</h4>
-            <span>October 2023 - Present</span>
+            <span>October 2023 - February 2025</span>
             <ul className={style.timeline_text_list}>
               <li>Developed new websites and APIs for efficient client and staff management, enhancing user tracking and administration.</li>
               <li>Implemented APIs for process automation, optimizing workflows and reducing operation times.</li>
