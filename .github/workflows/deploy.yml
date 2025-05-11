@@ -45,6 +45,10 @@ jobs:
           rm -rf ./*
           cp -r ../temp_dist/* .
 
+      # ← Añade el CNAME
+      - name: Create CNAME for custom domain
+        run: echo 'www.pabloalbin.dev' > CNAME
+
       - name: Commit and Push to GitHub Pages
         run: |
           git config --global user.name 'github-actions[bot]'
